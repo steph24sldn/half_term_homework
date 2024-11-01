@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../pages/aboutpage.html">About us</a></li>
+        <li><a href="/pages/account.html">Account</a></li>
+        <li><a href="">Pricing</a></li>
+        <li><a href="">Delivery</a></li>
+         </ul>
+    <center><h1>Sign up</h1></center>
+    <form action="../pages/thankyoupage.html" method="POST">
+        <label for="first-name">First Name:</label><br>
+        <input type="text" id="first-name" name="first-name" required><br><br>
+
+        <label for="last-name">Last Name:</label><br>
+        <input type="text" id="last-name" name="last-name" required><br><br>
+
+        <label for="date">Date:</label><br>
+        <input type="date" id="date" name="date" required><br><br>
+
+        <label for="gender">Gender:</label><br>
+        <select id="gender" name="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select><br><br>
+
+        <label for="event">Select a Sporting Event:</label><br>
+        <select id="event" name="event" required>
+            <option value="soccer">football</option>
+            <option value="basketball">rugby</option>
+            <option value="tennis">basketball</option>
+            <option value="running">running</option>
+        </select><br><br>
+
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+</body>
+</html>
